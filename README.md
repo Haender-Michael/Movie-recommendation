@@ -1,5 +1,6 @@
 # Movie recommendations.
-![Alt text](premium_photo-1710409625244-e9ed7e98f67b.jpeg)
+![Alt text](https://github.com/Haender-Michael/Movie-recommendation/blob/5b17661812d41f56b50833e9f5fa7e535983c0cf/les%20images/Image%201.webp)
+
 ## Introduction:
 For this project, we will use the "small" dataset from [GroupLens](https://grouplens.org/datasets/movielens/latest/). This dataset includes four main files:
 
