@@ -1,6 +1,5 @@
 # Movie recommendations.
-![Alt text](https://github.com/Haender-Michael/SyriaTel-Customer-Churn-Analysis-and-predictive-Modeling/blob/0ae85ade5aae03b04636890103a3e4dbbfed8e73/les%20images/Image%2010.jpg)
-[source](https://sl.bing.net/6MZvOEjFL2) 
+![Alt text](premium_photo-1710409625244-e9ed7e98f67b.jpeg)
 ## Introduction:
 For this project, we will use the "small" dataset from [GroupLens](https://grouplens.org/datasets/movielens/latest/). This dataset includes four main files:
 
