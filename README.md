@@ -48,6 +48,7 @@ This collaborative filtering model will analyze shared behaviors among users to 
 The key idea behind collaborative filtering is that similar users share similar interests, and users tend to like items that others with similar tastes also enjoy.
 ## Major Questions
 #### What does the distribution of ratings reveal?
+![Alt text](https://github.com/Haender-Michael/Movie-recommendation/blob/20f793aba116199e6ec53efade3b6edcd107e72b/les%20images/image%204.png)
 **Answer** : most ratings fall between 3 and 5, suggesting a generally positive trend.
 #### What does the distribution of ratings per user reveal about user activity levels?
 **Answer**
