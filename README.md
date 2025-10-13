@@ -62,6 +62,7 @@ It reflects the observation that most movies are rated between 3 and 4.5, with f
 **Answer**
 Movies with only a handful of ratings often show extreme values—either very high or very low—whereas those with many ratings tend to stabilize around an average of 3.5. This highlights the importance of having enough ratings to reliably gauge a film’s actual popularity.
 #### Top 10 Most Rated Movies
+![Alt text](https://github.com/Haender-Michael/Movie-recommendation/blob/1df1784aa7c0411b1631677f718ac9ce5059eb3e/les%20images/image%203.png)
 #### What are the most common genres ?
 ![Alt text](https://github.com/Haender-Michael/Movie-recommendation/blob/d945f4059a1212a31435949cdc2b13d452bc42d1/les%20images/image%202.png)
 Drama, comedy and thriller are the most common genre in this dataset.
