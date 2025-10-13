@@ -43,3 +43,9 @@ Video streaming platforms face a major challenge: delivering relevant content to
 Our goal is to build a recommendation system capable of automatically suggesting the top 5 movies to a user, based on their past ratings and those of similar users.
 This collaborative filtering model will analyze shared behaviors among users to predict future preferences. By integrating such a solution, a streaming company can enhance the user experience, increase engagement, and reduce churn.
 The key idea behind collaborative filtering is that similar users share similar interests, and users tend to like items that others with similar tastes also enjoy.
+## Major Questions
+#### What does the distribution of ratings reveal?
+**Answer** : most ratings fall between 3 and 5, suggesting a generally positive trend.
+#### What does the distribution of ratings per user reveal about user activity levels?
+**Answer**
+some users are highly active while others contribute very few ratings, highlighting the imbalance.
