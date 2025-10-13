@@ -75,6 +75,7 @@ n_factors=150 → the model learns 150 latent dimensions (more complexity, great
 n_epochs=40 → more training iterations.
 lr_all=0.01 → a faster learning rate.
 reg_all=0.1 → stronger regularization to prevent overfitting.
+## contact information 
 - First Name: Haender Michael
 - Last Name: Jean Louis
 - Email: michaelhaenderjeanlouis@gmail.com
