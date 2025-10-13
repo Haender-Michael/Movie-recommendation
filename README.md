@@ -29,3 +29,17 @@ Since good recommendations play an important role in client satisfaction we will
 - email
 - phone number
 - LinkedIn
+##  Exploratory data Analysis
+#### **Dataset overview & cleaning**
+the datasets movies_csv and ratings.csv that we will use are already cleaned which simplifies the process
+#### **Dataset Description**
+Some description have been provided in the introduction of this project. For more description of the data you may wanna read this:
+The dataset is composed of four main files:
+movies.csv: contains information about the movies (ID, title, genres). ratings.csv: contains user ratings (userId, movieId, rating, timestamp). tags.csv: gathers keywords associated with movies by users. links.csv: provides mappings between MovieLens IDs, IMDb, and TMDB.
+For this project, we will focus on movies.csv and ratings.csv, as they form the foundation of collaborative filtering:
+ratings.csv allows us to build the user–movie matrix based on the ratings given.
+#### **business understanding**
+Video streaming platforms face a major challenge: delivering relevant content to each user from an immense catalog. Without personalized recommendations, users may feel lost and leave the platform, leading to lower retention.
+Our goal is to build a recommendation system capable of automatically suggesting the top 5 movies to a user, based on their past ratings and those of similar users.
+This collaborative filtering model will analyze shared behaviors among users to predict future preferences. By integrating such a solution, a streaming company can enhance the user experience, increase engagement, and reduce churn.
+The key idea behind collaborative filtering is that similar users share similar interests, and users tend to like items that others with similar tastes also enjoy.
