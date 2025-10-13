@@ -49,3 +49,35 @@ The key idea behind collaborative filtering is that similar users share similar 
 #### What does the distribution of ratings per user reveal about user activity levels?
 **Answer**
 some users are highly active while others contribute very few ratings, highlighting the imbalance.
+#### What does the number of ratings per movie reveal about the dataset’s structure?
+**Answer**
+some movies have far more ratings thatn others.
+#### What does the average rating per movie suggest about overall film reception?
+**Answer**
+It reflects the observation that most movies are rated between 3 and 4.5, with few receiving very low scores.
+#### How are average ratings affected by the number of votes?
+**Answer**
+Movies with only a handful of ratings often show extreme values—either very high or very low—whereas those with many ratings tend to stabilize around an average of 3.5. This highlights the importance of having enough ratings to reliably gauge a film’s actual popularity.
+#### Top 10 Most Rated Movies
+#### What are the most common genres ?
+**Answer**
+Drama, comedy and thriller are the most common genre in this dataset.
+## Modelisation
+#### Data Preparation for modelisation
+#### Remarque
+Some users have rated very few movies, and some films have received very few ratings. To improve the quality of collaborative filtering, we will filter out users or movies with fewer than 5 ratings.
+# training an SVD Model
+RMSE: 0.8504
+RMSE SVD : 0.8504026440686286
+#### Optimisation of the SVD Model with GridSearchCV
+#### Remarque:
+n_factors=150 → the model learns 150 latent dimensions (more complexity, greater ability to capture subtle preferences).
+n_epochs=40 → more training iterations.
+lr_all=0.01 → a faster learning rate.
+reg_all=0.1 → stronger regularization to prevent overfitting.
+- First Name: Haender Michael
+- Last Name: Jean Louis
+- Email: michaelhaenderjeanlouis@gmail.com
+- Phone Number: +509 41 75 0264
+- LinkedIn: https://www.linkedin.com/in/michael-haender-jean-louis-4b7320316?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
+For further inquiries, feedback, or collaboration on this analysis, feel free to reach out. I welcome discussions and any contract to work.
