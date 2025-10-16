@@ -41,7 +41,7 @@ The dataset is composed of four main files:
 movies.csv: contains information about the movies (ID, title, genres). ratings.csv: contains user ratings (userId, movieId, rating, timestamp). tags.csv: gathers keywords associated with movies by users. links.csv: provides mappings between MovieLens IDs, IMDb, and TMDB.
 For this project, we will focus on movies.csv and ratings.csv, as they form the foundation of collaborative filtering:
 ratings.csv allows us to build the user–movie matrix based on the ratings given.
-#### **business understanding**
+#### **Data/business understanding**
 Video streaming platforms face a major challenge: delivering relevant content to each user from an immense catalog. Without personalized recommendations, users may feel lost and leave the platform, leading to lower retention.
 Our goal is to build a recommendation system capable of automatically suggesting the top 5 movies to a user, based on their past ratings and those of similar users.
 This collaborative filtering model will analyze shared behaviors among users to predict future preferences. By integrating such a solution, a streaming company can enhance the user experience, increase engagement, and reduce churn.
@@ -54,13 +54,13 @@ The key idea behind collaborative filtering is that similar users share similar 
 **Answer**
 some users are highly active while others contribute very few ratings, highlighting the imbalance.
 #### What does the number of ratings per movie reveal about the dataset’s structure?
-**Answer**
+**Answer**: 
 some movies have far more ratings thatn others.
 #### What does the average rating per movie suggest about overall film reception?
-**Answer**
+**Answer**: 
 It reflects the observation that most movies are rated between 3 and 4.5, with few receiving very low scores.
 #### How are average ratings affected by the number of votes?
-**Answer**
+**Answer**: 
 Movies with only a handful of ratings often show extreme values—either very high or very low—whereas those with many ratings tend to stabilize around an average of 3.5. This highlights the importance of having enough ratings to reliably gauge a film’s actual popularity.
 #### Top 10 Most Rated Movies
 ![Alt text](https://github.com/Haender-Michael/Movie-recommendation/blob/1df1784aa7c0411b1631677f718ac9ce5059eb3e/les%20images/image%203.png)
