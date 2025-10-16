@@ -23,10 +23,8 @@ Since good recommendations play an important role in client satisfaction we will
 
 #### **Modelisation**
 - data preparation for modelisation
-- building Matrix
-- collaborative filtering
 - training/ optimisation of SVD model
-
+- recommendations 
 #### **Contact information**
 - name
 - email
@@ -51,7 +49,7 @@ The key idea behind collaborative filtering is that similar users share similar 
 ![Alt text](https://github.com/Haender-Michael/Movie-recommendation/blob/20f793aba116199e6ec53efade3b6edcd107e72b/les%20images/image%204.png)
 **Answer** : most ratings fall between 3 and 5, suggesting a generally positive trend.
 #### What does the distribution of ratings per user reveal about user activity levels?
-**Answer**
+**Answer**: 
 some users are highly active while others contribute very few ratings, highlighting the imbalance.
 #### What does the number of ratings per movie reveal about the dataset’s structure?
 **Answer**: 
@@ -69,17 +67,38 @@ Movies with only a handful of ratings often show extreme values—either very hi
 Drama, comedy and thriller are the most common genre in this dataset.
 ## Modelisation
 #### Data Preparation for modelisation
-#### Remarque
-Some users have rated very few movies, and some films have received very few ratings. To improve the quality of collaborative filtering, we will filter out users or movies with fewer than 5 ratings.
+#### Remarq
+Some users have rated very few movies, and some films have received very few ratings. To improve the quality of collaborative filtering, we will we filter out users or movies with fewer than 5 ratings.
 # training an SVD Model
 RMSE: 0.8504
 RMSE SVD : 0.8504026440686286
+the model’s predictions are fairly close to the actual values but not perfect.
+we will optimize the model.
 #### Optimisation of the SVD Model with GridSearchCV
-#### Remarque:
+#### Remarq :
 n_factors=150 → the model learns 150 latent dimensions (more complexity, greater ability to capture subtle preferences).
 n_epochs=40 → more training iterations.
 lr_all=0.01 → a faster learning rate.
 reg_all=0.1 → stronger regularization to prevent overfitting.
+#### Recommendations based on the model 
+Top 5 recommandations for user 1 :
+Recommendation #1: Shawshank Redemption, The (1994) (predicted rating : 5.00)
+Recommendation #2: Vanya on 42nd Street (1994) (predicted rating : 5.00)
+Recommendation #3: Wallace & Gromit: The Best of Aardman Animation (1996) (predic
+ted rating : 5.00)
+Recommendation #4: Godfather, The (1972) (predicted rating : 5.00)
+Recommendation #5: Philadelphia Story, The (1940) (predicted rating : 5.00)
+
+op 5 recommandations for user 2 :
+Recommendation #1: Three Billboards Outside Ebbing, Missouri (2017) (predicted ra
+ting : 4.62)
+Recommendation #2: Day of the Doctor, The (2013) (predicted rating : 4.56)
+Recommendation #3: Swept Away (Travolti da un insolito destino nell'azzurro mare
+d'Agosto) (1975) (predicted rating : 4.54)
+Recommendation #4: Last Tango in Paris (Ultimo tango a Parigi) (1972) (predicted
+rating : 4.52)
+Recommendation #5: Captain Fantastic (2016) (predicted rating : 4.51)
+
 ## contact information 
 - First Name: Haender Michael
 - Last Name: Jean Louis
