@@ -83,20 +83,28 @@ reg_all=0.1 → stronger regularization to prevent overfitting.
 #### Recommendations based on the model 
 Top 5 recommandations for user 1 :
 Recommendation #1: Shawshank Redemption, The (1994) (predicted rating : 5.00)
+
 Recommendation #2: Vanya on 42nd Street (1994) (predicted rating : 5.00)
+
 Recommendation #3: Wallace & Gromit: The Best of Aardman Animation (1996) (predic
 ted rating : 5.00)
+
 Recommendation #4: Godfather, The (1972) (predicted rating : 5.00)
+
 Recommendation #5: Philadelphia Story, The (1940) (predicted rating : 5.00)
 
 op 5 recommandations for user 2 :
 Recommendation #1: Three Billboards Outside Ebbing, Missouri (2017) (predicted ra
 ting : 4.62)
+
 Recommendation #2: Day of the Doctor, The (2013) (predicted rating : 4.56)
+
 Recommendation #3: Swept Away (Travolti da un insolito destino nell'azzurro mare
 d'Agosto) (1975) (predicted rating : 4.54)
+
 Recommendation #4: Last Tango in Paris (Ultimo tango a Parigi) (1972) (predicted
 rating : 4.52)
+
 Recommendation #5: Captain Fantastic (2016) (predicted rating : 4.51)
 
 ## contact information 
