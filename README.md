@@ -67,7 +67,7 @@ Movies with only a handful of ratings often show extreme values—either very hi
 Drama, comedy and thriller are the most common genre in this dataset.
 ## Modelisation
 #### Data Preparation for modelisation
-#### Remarq
+#### Remark
 Some users have rated very few movies, and some films have received very few ratings. To improve the quality of collaborative filtering, we will we filter out users or movies with fewer than 5 ratings.
 # training an SVD Model
 RMSE: 0.8504
@@ -75,7 +75,7 @@ RMSE SVD : 0.8504026440686286
 the model’s predictions are fairly close to the actual values but not perfect.
 we will optimize the model.
 #### Optimisation of the SVD Model with GridSearchCV
-#### Remarq :
+#### Remark :
 n_factors=150 → the model learns 150 latent dimensions (more complexity, greater ability to capture subtle preferences).
 n_epochs=40 → more training iterations.
 lr_all=0.01 → a faster learning rate.
