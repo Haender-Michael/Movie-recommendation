@@ -1,5 +1,5 @@
 # Movie recommendations.
-![Alt text](https://github.com/Haender-Michael/Movie-recommendation/blob/3501039740ae9001a4175ce8e4f01638c6f3a033/film-clipboard-symbol-26030446.webp)
+![Alt text]()
 
 [source](https://sl.bing.net/hH3Fwm1f5I4)
 ## Introduction:
