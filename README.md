@@ -1,5 +1,5 @@
 # Movie recommendations.
-![Alt text](https://github.com/Haender-Michael/Movie-recommendation/blob/1a3184fc391600e3a8c6f0af3ccd9d4cf6b0750f/non%20profit%20organisation%205.png)
+![Alt text]()
 
 [source](https://sl.bing.net/cNg3KSZCd0m)
 ## Introduction:
